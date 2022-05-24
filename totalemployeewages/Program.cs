@@ -9,6 +9,7 @@ namespace employeewages
             totalemployeewages.ispresent value = new totalemployeewages.ispresent();
             value.presentorabsent();
             value.dailyWage();
+            value.addPartTimeWage();
         }
     }
 }
