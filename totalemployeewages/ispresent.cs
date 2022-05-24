@@ -160,6 +160,7 @@ namespace totalemployeewages
             int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HRS;
             Console.WriteLine("Total employee wage " + totalEmpWage);
         }
+       
 
     }
 }

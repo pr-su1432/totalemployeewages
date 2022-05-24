@@ -13,6 +13,7 @@ namespace employeewages
             value.EmpWageUsingSwitch();
             value.calculateMonthlyWage();
             value.calculateTotalEmpWage();
+            value.WageForMonth();
         }
     }
 }
