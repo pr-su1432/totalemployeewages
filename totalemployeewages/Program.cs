@@ -10,6 +10,7 @@ namespace employeewages
             value.presentorabsent();
             value.dailyWage();
             value.addPartTimeWage();
+            value.EmpWageUsingSwitch();
         }
     }
 }
