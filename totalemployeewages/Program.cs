@@ -12,6 +12,7 @@ namespace employeewages
             value.addPartTimeWage();
             value.EmpWageUsingSwitch();
             value.calculateMonthlyWage();
+            value.calculateTotalEmpWage();
         }
     }
 }
