@@ -1,19 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
-namespace employeewages
-{
-    public class program
-    {
-        public static void Main(string[] args)
-        {
-            totalemployeewages.ispresent value = new totalemployeewages.ispresent();
-            value.presentorabsent();
-            value.dailyWage();
-            value.addPartTimeWage();
-            value.EmpWageUsingSwitch();
-            value.calculateMonthlyWage();
-            value.calculateTotalEmpWage();
-            value.WageForMonth();
-        }
-    }
-}
+Console.WriteLine("Hello, World!");
+totalemployeewages.multiplecompanies value = new totalemployeewages.multiplecompanies();
+value.calculateTotalEmpWage("Dmart", 20, 500, 60);
+value.calculateTotalEmpWage("Reliance", 35, 700, 50);
